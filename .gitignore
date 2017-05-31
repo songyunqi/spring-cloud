@@ -1,1 +1,3 @@
 /spring-cloud-config-service/target/
+/spring-cloud-eureka-server/target/
+/spring-cloud-eureka-client/target/

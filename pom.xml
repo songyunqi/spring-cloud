@@ -18,6 +18,7 @@
         <module>spring-cloud-config-server</module>
         <module>spring-cloud-config-service</module>
         <module>spring-cloud-eureka-server</module>
+        <module>spring-cloud-eureka-client</module>
     </modules>
     <dependencies>
         <dependency>
