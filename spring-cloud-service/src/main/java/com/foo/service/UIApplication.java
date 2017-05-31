@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * 
+ *
  * @author Yang
  */
 @SpringBootApplication
@@ -16,15 +16,15 @@ import org.springframework.web.bind.annotation.RestController;
 @RefreshScope
 public class UIApplication {
 
-    @Value("${info.foo:World!}") String name ;
+    @Value("${info.foo:World!}")
+    String name;
 
     @RequestMapping("/")
-    public String home(){
+    public String home() {
         return "Hello " + name;
     }
 
-
-   public static void main(String[] args) {
-        SpringApplication.run(UIApplication.class,args);
+    public static void main(String[] args) {
+        SpringApplication.run(UIApplication.class, args);
     }
 }
